@@ -18,7 +18,7 @@ from RdxXMusic.utils.database import (
     remove_active_video_chat,
 )
 from RdxXMusic.utils.decorators.language import language
-from RdxXMusic.utils.pastebin import AnonyBin
+from RdxXMusic.utils.pastebin import RdxBin
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
