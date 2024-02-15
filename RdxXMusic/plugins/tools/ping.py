@@ -4,7 +4,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from RdxXMusic import app
-from RdxXMusic.core.call import Anony
+from RdxXMusic.core.call import Rdx
 from RdxXMusic.utils import bot_sys_stats
 from RdxXMusic.utils.decorators.language import language
 from RdxXMusic.utils.inline import supp_markup
