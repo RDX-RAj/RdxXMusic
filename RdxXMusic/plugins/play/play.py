@@ -7,7 +7,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from RdxXMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from RdxXMusic.core.call import Anony
+from RdxXMusic.core.call import Rdx
 from RdxXMusic.utils import seconds_to_min, time_to_seconds
 from RdxXMusic.utils.channelplay import get_channeplayCB
 from RdxXMusic.utils.decorators.language import languageCB
