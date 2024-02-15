@@ -11,7 +11,7 @@ from RdxXMusic.misc import db
 from RdxXMusic.utils.database import add_active_video_chat, is_active_chat
 from RdxXMusic.utils.exceptions import AssistantErr
 from RdxXMusic.utils.inline import aq_markup, close_markup, stream_markup
-from RdxXMusic.utils.pastebin import AnonyBin
+from RdxXMusic.utils.pastebin import RdxBin
 from RdxXMusic.utils.stream.queue import put_queue, put_queue_index
 from RdxXMusic.utils.thumbnails import get_thumb
 
