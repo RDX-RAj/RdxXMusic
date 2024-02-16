@@ -1,5 +1,4 @@
-from pyrogram import Client, filters
-from gtts import gTTS
+from pyrogram import Client,
 from RdxXMusic import app
 
 
