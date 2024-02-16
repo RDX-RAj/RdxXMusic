@@ -9,12 +9,19 @@ load_dotenv()
 # Get this value from my.telegram.org/apps
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
-
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
-
+# Add Owner Username without @ 
+OWNER_USERNAME = getenv("OWNER_USERNAME", "ll_RJ29RDX_ll")
+# Get Your bot username
+BOT_USERNAME = getenv("BOT_USERNAME", "Alexa_3X_BOT")
+# Don't Add style font 
+BOT_NAME = getenv("BOT_NAME", "RDX MUSIC")
+#get Your Assistant User name
+ASSUSERNAME = getenv("ASSUSERNAME", "RDX_ASS")
+EVALOP = list(map(int, getenv("EVALOP", "1777270311").split()))
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://sanasomani786:TJgADfpkI1XVUkKt@cluster0.ruhyad9.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "10000"))
 
