@@ -133,13 +133,11 @@ def help_pannel(_, START: Union[bool, int] = None):
             ],
             [
                 InlineKeyboardButton(text="˹s๏ᴜʀᴄє˼", url=config.UPSTREAM_REPO),
-                InlineKeyboardButton(
-                    text="˹๏ᴡɴєʀ˼",
-                    user_id="1777270311",
+                InlineKeyboardButton(text="˹๏ᴡɴєʀ˼",user_id="1777270311"
                 ),
                 InlineKeyboardButton(
                     text="˹ᴀʟʟ-в๏тѕ˼",
-                    url="https://t.me/+KRt7ApiJ5Ek2ZjY1",
+                    url="https://t.me/+KRt7ApiJ5Ek2ZjY1"
                 ),
                
             ],
