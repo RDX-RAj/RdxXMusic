@@ -128,12 +128,10 @@ def help_pannel(_, START: Union[bool, int] = None):
                 InlineKeyboardButton(
                     text=_["H_B_24"],
                     callback_data="help_callback hb24",
-                ),
-               
+                ),               
             ],
             [
-                InlineKeyboardButton(
-                    text="˹s๏ᴜʀᴄє˼", url=config.UPSTREAM_REPO),
+                InlineKeyboardButton(text="˹s๏ᴜʀᴄє˼", url=config.UPSTREAM_REPO),
                 InlineKeyboardButton(
                     text="˹ᴀʟʟ-в๏тѕ˼",
                     url="https://t.me/+KRt7ApiJ5Ek2ZjY1"),            
