@@ -16,7 +16,7 @@ OWNER_USERNAME = getenv("OWNER_USERNAME", "ll_RJ29RDX_ll")
 # Get Your bot username
 BOT_USERNAME = getenv("BOT_USERNAME", "Alexa_3X_BOT")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME", "RDX MUSIC")
+BOT_NAME = getenv("BOT_NAME", "Alexa Music")
 #get Your Assistant User name
 ASSUSERNAME = getenv("ASSUSERNAME", "RDX_ASS")
 EVALOP = list(map(int, getenv("EVALOP", "1777270311").split()))
