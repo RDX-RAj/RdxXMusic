@@ -38,7 +38,7 @@ def private_panel(_):
                 url="https://t.me/+RObRa7kXPIJmMjU1"),],[
             InlineKeyboardButton(text=_["S_B_1"], url=f"https://t.me/{app.username}?startgroup=true"),],
         [
-            InlineKeyboardButton(text=_["S_B_5"], user_id="1777270311"),
+            InlineKeyboardButton(text=_["S_B_5"], user_id="6450320139"),
             InlineKeyboardButton(text=_["S_B_7"], url="https://t.me/+m4oVCt2zFhYyMTdl"),
         ],
         [
